@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:14.04.4
 # Install latest updates
 RUN apt-get update
 RUN apt-get upgrade -y
